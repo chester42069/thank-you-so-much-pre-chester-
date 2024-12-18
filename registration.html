@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration</h1>
+        <form id="registration-form">
+            <div class="form-group">
+                <p>Create your account to access our services.</p>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="number">Contact Number:</label>
+                <input type="number" id="number" name="number" required>
+                <label for="role">Role:</label>
+                <div class="role">
+                    <select id="role" name="role" required>
+                        <option value="doctor">Doctor</option>
+                        <option value="user">User</option>
+                    </select>
+                </div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Register</button>
+        </div>
+        </form>
+        <p>Already have an account? <a href="login.html">Log in</a></p>
+    </div>
+</body>
+</html>

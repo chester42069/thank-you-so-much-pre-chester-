@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, blue, lightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    }
+
+    .container {
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+     h1 {
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 25px;
+        width: 450px;
+        height: 550px;
+    }
+    
+    .role {
+        padding-bottom: 20px;
+    }
+
+    label {
+        color: white;
+        }
+
+    input {
+        width: 150px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 25px; 
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: darkblue;
+        color: white;
+        border: 2px solid white;
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: transparent;
+        backdrop-filter: blur(5px);
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: lightblue;
+        color: black;
+    }
+    button:active {
+        transform: scale(0.9);
+    }
+
+    p {
+        margin-top: 20px;
+        color: white;
+    }
+
+    a {
+        color: blue;
+    }
+    body::-webkit-scrollbar{
+        display: none;
+      }
